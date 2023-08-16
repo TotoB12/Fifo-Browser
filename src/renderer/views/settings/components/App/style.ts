@@ -2,13 +2,13 @@
 
 import styled, { css } from 'styled-components';
 
-import { robotoMedium, robotoLight, centerIcon } from '~/renderer/mixins';
+import { interMedium, interLight, centerIcon } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 import { ICON_BACK } from '~/renderer/constants';
 
 export const Title = styled.div`
   font-size: 14px;
-  ${robotoMedium()};
+  ${interMedium()};
 `;
 
 export const Header = styled.div`
@@ -17,7 +17,7 @@ export const Header = styled.div`
   font-size: 20px;
   display: flex;
   align-items: center;
-  ${robotoLight()};
+  ${interLight()};
 `;
 
 export const Row = styled.div`
