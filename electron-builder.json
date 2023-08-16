@@ -1,6 +1,6 @@
 {
-  "appId": "fifo",
-  "productName": "Fifo",
+  "appId": "totob12",
+  "productName": "TotoB12",
   "nsis": {
     "include": "static/installer.nsh"
   },
@@ -43,7 +43,7 @@
   "fileAssociations": [
     {
       "name": "Document",
-      "description": "Fifo",
+      "description": "TotoB12",
       "role": "Viewer",
       "ext": "html"
     }
