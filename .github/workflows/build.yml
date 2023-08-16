@@ -1,7 +1,7 @@
 name: Test Compilation
 
 # on: [push, pull_request]
-on: []
+on: [push]
 
 jobs:
   release:
