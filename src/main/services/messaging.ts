@@ -164,7 +164,7 @@ export const runMessagingService = (appWindow: AppWindow) => {
 
         if (item && item.type === 'password') {
           // item.fields.password = await getPassword(
-          //   'Fifo',
+          //   'TotoB12',
           //   `${hostname}-${item.fields.username}`,
           // );
         }
@@ -230,7 +230,7 @@ export const runMessagingService = (appWindow: AppWindow) => {
         );
       }
 
-      // await setPassword('Fifo', `${hostname}-${username}`, password);
+      // await setPassword('TotoB12', `${hostname}-${username}`, password);
 
       appWindow.send(`has-credentials-${view.id}`, true);
     });
@@ -246,7 +246,7 @@ export const runMessagingService = (appWindow: AppWindow) => {
         },
       });
 
-      // await deletePassword('Fifo', `${view.hostname}-${fields.username}`);
+      // await deletePassword('TotoB12', `${view.hostname}-${fields.username}`);
 
       appWindow.viewManager.settingsView.webContents.send(
         'credentials-remove',
@@ -257,7 +257,7 @@ export const runMessagingService = (appWindow: AppWindow) => {
     ipcMain.on(
       'credentials-get-password',
       async (e, id: string, account: string) => {
-        // const password = await getPassword('Fifo', account);
+        // const password = await getPassword('TotoB12', account);
         // e.sender.send(id, password);
       },
     );
