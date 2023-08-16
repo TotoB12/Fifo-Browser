@@ -14,7 +14,9 @@ import {
   DEFAULT_TITLEBAR_HEIGHT,
   COMPACT_TITLEBAR_HEIGHT,
   DEFAULT_TAB_MARGIN_TOP,
+  DEFAULT_TAB_MARGIN_BOTTOM,
   COMPACT_TAB_MARGIN_TOP,
+  COMPACT_TAB_MARGIN_BOTTOM,
   COMPACT_TAB_HEIGHT,
   DEFAULT_TAB_HEIGHT,
 } from '~/constants/design';
@@ -55,6 +57,9 @@ const App = observer(() => {
         tabMarginTop: !store.isCompact
           ? DEFAULT_TAB_MARGIN_TOP
           : COMPACT_TAB_MARGIN_TOP,
+        tabMarginBottom: !store.isCompact
+          ? DEFAULT_TAB_MARGIN_BOTTOM
+          : COMPACT_TAB_MARGIN_BOTTOM,
         tabHeight: store.isCompact ? COMPACT_TAB_HEIGHT : DEFAULT_TAB_HEIGHT,
       }}
     >
