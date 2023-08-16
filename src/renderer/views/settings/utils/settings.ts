@@ -10,7 +10,7 @@ export const onSwitchChange = (key: string) => () => {
 export const alertSwitchChange = (key: string) => () => {
   (store.settings as any)[key] = !(store.settings as any)[key];
   store.save();
-  alert('Please restart Fifo for this setting to be applied.');
+  alert('Please restart TotoB12 for this setting to be applied.');
 };
 
 export const newTabSwitchChange = (key: string) => () => {
