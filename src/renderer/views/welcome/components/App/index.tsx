@@ -321,7 +321,7 @@ export default observer(() => {
             <div
               style={{
                 border: '1px solid rgb(95, 99, 104)',
-                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/src/renderer/views/welcome/components/App/se/ddg.png?raw=true)`,
+                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/static/logo/ddg.png?raw=true)`,
                 backgroundSize: 'cover',
                 borderRadius: '50%',
                 display: 'flex',
@@ -336,7 +336,7 @@ export default observer(() => {
             <div
               style={{
                 border: '1px solid rgb(95, 99, 104)',
-                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/src/renderer/views/welcome/components/App/se/google.png?raw=true)`,
+                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/static/logo/google.png?raw=true)`,
                 backgroundSize: 'cover',
                 borderRadius: '50%',
                 display: 'flex',
@@ -351,7 +351,7 @@ export default observer(() => {
             <div
               style={{
                 border: '1px solid #0000FF',
-                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/src/renderer/views/welcome/components/App/se/bing.png?raw=true)`,
+                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/static/logo/bing.png?raw=true)`,
                 backgroundSize: 'cover',
                 borderRadius: '50%',
                 display: 'flex',
@@ -366,7 +366,7 @@ export default observer(() => {
             <div
               style={{
                 border: '1px solid rgb(95, 99, 104)',
-                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/src/renderer/views/welcome/components/App/se/ecosia.png?raw=true)`,
+                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/static/logo/ecosia.png?raw=true)`,
                 backgroundSize: 'cover',
                 borderRadius: '50%',
                 display: 'flex',
