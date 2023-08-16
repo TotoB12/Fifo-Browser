@@ -172,7 +172,13 @@ export const AddressBar = observer(() => {
       color={store.tabs.selectedTab?.color}
     >
       <ToolbarButton
-        className="disabled"
+        pointer-events={none}
+        cursor={not-allowed}
+        opacity={0.65}
+        filter={alpha (opacity=65)}
+        webkit-box-shadow={none}
+        box-shadow={none}
+      
         toggled={false}
         icon={ICON_SEARCH}
         size={16}
