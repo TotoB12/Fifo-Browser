@@ -1,4 +1,4 @@
-/* Copyright (c) 2021-2022 SnailDOS */
+/* Copyright (c) 2021-2023 TotoB12 */
 
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
@@ -64,7 +64,7 @@ export default observer(() => {
       // Typically this means an update is not needed, but old versions will actually return "null" so we check for that.
       if (oldver == null) {
         alert(
-          'You are upgrading from Fifo v1.1.0, we recommend once you finish the update proccess, you should uninstall all of your currently installed chrome extensions.',
+          'You are upgrading from TotoB12 v1.1.0, we recommend once you finish the update proccess, you should uninstall all of your currently installed chrome extensions.',
         );
       }
     }
@@ -78,7 +78,7 @@ export default observer(() => {
       <WebUIStyle />
 
       <StyledSection className="banner1">
-        <Description>🎉 Fifo has been updated! 🎉</Description>
+        <Description>🎉 TotoB12 has been updated! 🎉</Description>
         <Title>Press Start to continue!</Title>
         <Button theme={store.theme} onClick={nextPage}>
           Start
@@ -99,7 +99,7 @@ export default observer(() => {
           What has been changed?
         </Description>
         <Description>
-          Introducing Fifo Final 2022 Update (v1.3.0)
+          Introducing TotoB12 Final 2022 Update (v1.3.0)
         </Description>
         <Description>- Add AMOLED Mode</Description>
         <Description>- Rewrite Setup System</Description>
@@ -109,7 +109,7 @@ export default observer(() => {
         <Description>- Security architecture upgrade</Description>
         <Description>Much much more!</Description>
         <a
-          href="https://github.com/snaildos/Fifo-Browser/blob/main/CHANGELOG.md"
+          href="https://github.com/totob12/TotoB12-Browser/blob/main/CHANGELOG.md"
           target="_blank"
           rel="noreferrer"
         >
@@ -149,7 +149,7 @@ export default observer(() => {
 
       <StyledSection className="banner3">
         <Favicon></Favicon>
-        <Title>Fifo Setup</Title>
+        <Title>TotoB12 Setup</Title>
         <Description
           style={{
             fontSize: '1.5rem',
@@ -159,8 +159,8 @@ export default observer(() => {
             opacity: '1',
           }}
         >
-          For maximum privacy, set Fifo as your default browser! Press the Start
-          button to upgrade the Fifo database and start browsing!
+          For maximum privacy, set TotoB12 as your default browser! Press the Start
+          button to upgrade the TotoB12 database and start browsing!
         </Description>
         <div
           style={{
@@ -184,13 +184,13 @@ export default observer(() => {
               alignItems: 'center',
             }}
           >
-            Start Using Fifo
+            Start Using TotoB12
           </div>
         </ExtraStyledButton>
       </StyledSection>
 
       <StyledSection className="banner4">
-        <Description>Fifo is the new privacy orientated browser!</Description>
+        <Description>TotoB12 is the new privacy orientated browser!</Description>
         <Title>Inbuilt adblocker and more, what are you waiting for?</Title>
         <p></p>
         <Description>
