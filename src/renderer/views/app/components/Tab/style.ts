@@ -177,6 +177,7 @@ export const TabContainer = styled.div`
   ${({ pinned, theme, hasTabGroup, selected }: TabContainerProps) => css`
     max-width: ${pinned ? `${TAB_PINNED_WIDTH}px` : '100%'};
     margin-top: ${theme.tabMarginTop}px;
+    margin-bottom: ${theme.tabMarginBottom}px;
     border-radius: ${theme.isCompact && !hasTabGroup ? '4px' : 'auto'};
     height: ${theme.tabHeight}px;
     border-radius: 10px;
