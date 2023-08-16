@@ -4,39 +4,9 @@
 <div align="center">  
   <h1>TotoB12 Browser</h1>
 
-  [![Build CI](https://github.com/TotoB12/TotoB12-Browser/actions/workflows/build.yml/badge.svg)](https://github.com/totob12/TotoB12-Browser/actions/workflows/build.yml) 
-  
-[![Downloads](https://img.shields.io/github/downloads/snaildos/TotoB12-Browser/total.svg?style=flat-square)](https://totob12.com)
-![AUR version](https://img.shields.io/aur/version/totob12-bin)
-![Discord](https://img.shields.io/discord/522708457963388948)
-
+  [![Build CI](https://github.com/TotoB12/TotoB12-Browser/actions/workflows/build.yml/badge.svg)](https://github.com/totob12/TotoB12-Browser/actions/workflows/build.yml)
 
 TotoB12 is a modern web browser, built on top of modern web technologies such as `Electron` and `React` that is mean't to be secure. This browser is meant for office work, gaming, research and is a secure private browser. TotoB12 aims to be cross platform.
-
-
-# Table of Contents:
-- [Table of Contents:](#table-of-contents)
-- [Motivation](#motivation)
-- [Features](#features)
-  - [Other basic features](#other-basic-features)
-  - [What can I expect to see in future updates?](#what-can-i-expect-to-see-in-future-updates)
-- [Screenshots](#screenshots)
-  - [These images are from =\>0.1.0 and are outdated.](#these-images-are-from-010-and-are-outdated)
-- [Downloads](#downloads)
-- [Contributing](#contributing)
-- [Development](#development)
-  - [Running (Development)](#running-development)
-    - [Windows](#windows)
-    - [More commands](#more-commands)
-  - [Running (Without Development Mode (Stable))](#running-without-development-mode-stable)
-    - [Windows](#windows-1)
-- [Documentation](#documentation)
-- [License](#license)
-
-# Motivation
-
-Building a custom browser would be way to hard, therefor, we forked Wexond as our base, we are theng going to extend from there.
-TotoB12 has branched off Wexond and we are on our way of desiging our own graphics and icons.
 
 # Features
 
@@ -67,33 +37,8 @@ TotoB12 has branched off Wexond and we are on our way of desiging our own graphi
 - Updates
 - Security Security SECURITY!
 
-## What can I expect to see in future updates?
-
-- More security Features
-- AutoComplete
-- AutoFill
-
-# Screenshots
-
-
-## These images are from =>0.1.0 and are outdated.
-![alt text](https://github.com/totob12/TotoB12-Browser/blob/main/image-preview/image.jpg?raw=true)
-
-UI normal variant:
-![image](https://user-images.githubusercontent.com/11065386/81024186-f40b0400-8e72-11ea-976e-cd1ca1b43ad8.png)
-
-UI compact variant:
-![image](https://user-images.githubusercontent.com/11065386/81024222-13099600-8e73-11ea-9fc9-3c63a034403d.png)
-![image](https://user-images.githubusercontent.com/11065386/81024252-2ddc0a80-8e73-11ea-9f2f-6c9a4a175c60.png)
-
 # Downloads
 - [Stable Versions](https://github.com/TotoB12/TotoB12-Browser/releases)
-
-# Contributing
-
-If you have found any bugs or just want to see some new features in TotoB12, feel free to open an issue. Every suggestion is very valuable for us, as they help us improve the browsing experience. Also, please don't hesitate to open a pull request. This is really important to us and for the further development of this project.
-
-By opening a pull request, you agree to the conditions of the [Contributor License Agreement](cla.md).
 
 # Development
 
