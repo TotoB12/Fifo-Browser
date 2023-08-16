@@ -14,8 +14,8 @@ const Location = observer(() => {
   return (
     <Row>
       <Title>
-        Fifo is a privacy orientated browser with tons of features such as a
-        built in Ad Blocker. Fifo is made with love by the SnailDOS team. Big
+        TotoB12 is a privacy orientated browser with tons of features such as a
+        built in Ad Blocker. TotoB12 is made with love by the SnailDOS team. Big
         thanks to all our contributers...
         <p></p>
         <Title>SnailDOS - Development and Code</Title>
@@ -37,8 +37,8 @@ const Location = observer(() => {
 export const About = () => {
   return (
     <>
-      <Header>About Fifo</Header>
-      <Title>Your version of Fifo is v1.3.3</Title>
+      <Header>About TotoB12</Header>
+      <Title>Your version of TotoB12 is v1.3.3</Title>
       <Location />
     </>
   );
