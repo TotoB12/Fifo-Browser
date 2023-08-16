@@ -42,7 +42,7 @@ export const Party = () => {
     <>
       <Header>Third Party Services</Header>
       <span>
-        Fifo offers an easy way to block and allow third party services that are
+        TotoB12 offers an easy way to block and allow third party services that are
         optional to the user that may use their private infomation for unique
         features.
       </span>
