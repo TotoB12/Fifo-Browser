@@ -60,5 +60,6 @@ export const AddTab = styled(ToolbarButton)`
 
   ${({ theme }: { theme: ITheme }) => css`
     top: ${theme.isCompact ? 'auto' : theme.tabMarginTop + 2}px;
+    bottom: ${theme.isCompact ? 'auto' : theme.tabMarginBottom + 2}px;
   `};
 `;
