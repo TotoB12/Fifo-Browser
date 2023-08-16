@@ -261,7 +261,7 @@ export class Store {
     const news = this.isnews;
     if (news == false) {
       const { data } = await networkMainChannel.getInvoker().request(`
-      https://snaildos.github.io/SnailNews/data.json
+      https://totob12.com/TotoB12News/data.json
     `); // ?lang=
       const json = JSON.parse(data);
 
