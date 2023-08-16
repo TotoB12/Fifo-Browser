@@ -11,8 +11,8 @@ import {
 export const getTheme = (name: string) => {
   if (name === 'wexond-light') return lightTheme;
   else if (name === 'wexond-dark') return darkTheme;
-  else if (name === 'fifo-blue') return blueTheme;
-  else if (name === 'fifo-lavender') return lavTheme;
-  else if (name === 'fifo-amoled') return amoledTheme;
+  else if (name === 'totob12-blue') return blueTheme;
+  else if (name === 'totob12-lavender') return lavTheme;
+  else if (name === 'totob12-amoled') return amoledTheme;
   return darkTheme;
 };
