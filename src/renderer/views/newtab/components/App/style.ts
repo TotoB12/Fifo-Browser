@@ -85,7 +85,8 @@ export const RightBar = styled.div`
   right: 32px;
   flex-flow: column;
   height: 100%;
-  padding-top: 32px;
+  // padding-top: 32px;
+  padding-top: 16px;
 `;
 
 export const Menu = styled.div`
