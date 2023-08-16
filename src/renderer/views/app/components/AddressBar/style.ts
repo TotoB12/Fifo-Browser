@@ -5,7 +5,7 @@ import { ITheme } from '~/interfaces';
 import { BLUE_300 } from '~/renderer/constants';
 
 export const StyledAddressBar = styled.div`
-  height: 30px;
+  height: 32px;
   flex: 1;
   border-radius: 5px;
   margin: 0 7px;
