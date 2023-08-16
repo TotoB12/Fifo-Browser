@@ -1,18 +1,17 @@
 <div align="center">
-  <a href="https://fifo.snaildos.com"><img src="https://github.com/snaildos/Fifo-Browser/blob/main/static/icons/icon.png" width="256"></a>  
+  <a href="https://totob12.com"><img src="https://github.com/TotoB12/TotoB12-Browser/blob/main/static/icons/icon.png" width="256"></a>  
 </div>
 <div align="center">  
-  <h1>Fifo Browser</h1>
+  <h1>TotoB12 Browser</h1>
 
-  [![Build CI](https://github.com/snaildos/Fifo-Browser/actions/workflows/build.yml/badge.svg)](https://github.com/snaildos/Fifo-Browser/actions/workflows/build.yml) 
+  [![Build CI](https://github.com/TotoB12/TotoB12-Browser/actions/workflows/build.yml/badge.svg)](https://github.com/snaildos/TotoB12-Browser/actions/workflows/build.yml) 
   
-[![Downloads](https://img.shields.io/github/downloads/snaildos/Fifo-Browser/total.svg?style=flat-square)](https://fifo.snaildos.com)
-![AUR version](https://img.shields.io/aur/version/fifo-bin)
+[![Downloads](https://img.shields.io/github/downloads/snaildos/TotoB12-Browser/total.svg?style=flat-square)](https://totob12.com)
+![AUR version](https://img.shields.io/aur/version/totob12-bin)
 ![Discord](https://img.shields.io/discord/522708457963388948)
 
 
-Fifo is a modern web browser, built on top of modern web technologies such as `Electron` and `React` that is mean't to be secure. This browser is meant for office work, gaming, research and is a secure private browser. Fifo aims to be cross platform. 
-FIFO (Fly In Fly Out for your data.)
+TotoB12 is a modern web browser, built on top of modern web technologies such as `Electron` and `React` that is mean't to be secure. This browser is meant for office work, gaming, research and is a secure private browser. TotoB12 aims to be cross platform.
 
 
 # Table of Contents:
@@ -37,18 +36,18 @@ FIFO (Fly In Fly Out for your data.)
 # Motivation
 
 Building a custom browser would be way to hard, therefor, we forked Wexond as our base, we are theng going to extend from there.
-Fifo has branched off Wexond and we are on our way of desiging our own graphics and icons.
+TotoB12 has branched off Wexond and we are on our way of desiging our own graphics and icons.
 
 # Features
 
-- **AntiAd** - Browse the web without any ads and don't let websites to track you. Thanks to the 'AntiAd' (Fifo Service) powered by [Cliqz](https://github.com/cliqz-oss/adblocker), websites can load even 8 times faster!
-- **Chromium without Google services and low resources usage** - Since Fifo uses Electron under the hood which is based on only several and the most important Chromium components, it's not bloated with redundant Google tracking services and others.
+- **AntiAd** - Browse the web without any ads and don't let websites to track you. Thanks to the 'AntiAd' (TotoB12 Service) powered by [Cliqz](https://github.com/cliqz-oss/adblocker), websites can load even 8 times faster!
+- **Chromium without Google services and low resources usage** - Since TotoB12 uses Electron under the hood which is based on only several and the most important Chromium components, it's not bloated with redundant Google tracking services and others.
 - **Fast and fluent UI** - The animations are really smooth and their timings are perfectly balanced.
 - **Highly customizable new tab page** - Customize almost an every aspect of the new tab page!
-- **Customizable browser UI** - Choose whether Fifo should have compact or normal UI.
+- **Customizable browser UI** - Choose whether TotoB12 should have compact or normal UI.
 - **Tab groups** - Easily group tabs, so it's hard to get lost.
 - **Scrollable tabs** - Scroll between your tabs.
-- **Support Chrome extensions** - From version < 1.2.0 80% of chrome extenions are compatible and work with Fifo.
+- **Support Chrome extensions** - From version < 1.2.0 80% of chrome extenions are compatible and work with TotoB12.
 
 ## Other basic features
 
@@ -78,7 +77,7 @@ Fifo has branched off Wexond and we are on our way of desiging our own graphics 
 
 
 ## These images are from =>0.1.0 and are outdated.
-![alt text](https://github.com/SnailDOS/Fifo-Browser/blob/main/image-preview/image.jpg?raw=true)
+![alt text](https://github.com/totob12/TotoB12-Browser/blob/main/image-preview/image.jpg?raw=true)
 
 UI normal variant:
 ![image](https://user-images.githubusercontent.com/11065386/81024186-f40b0400-8e72-11ea-976e-cd1ca1b43ad8.png)
@@ -88,13 +87,11 @@ UI compact variant:
 ![image](https://user-images.githubusercontent.com/11065386/81024252-2ddc0a80-8e73-11ea-9f2f-6c9a4a175c60.png)
 
 # Downloads
-- [Stable Versions](https://github.com/snaildos/Fifo-Browser/releases)
-- [Snapcraft](https://snapcraft.io/fifo)
-- [AUR](https://aur.archlinux.org/packages/fifo-bin)
+- [Stable Versions](https://github.com/TotoB12/TotoB12-Browser/releases)
 
 # Contributing
 
-If you have found any bugs or just want to see some new features in Fifo, feel free to open an issue. Every suggestion is very valuable for us, as they help us improve the browsing experience. Also, please don't hesitate to open a pull request. This is really important to us and for the further development of this project.
+If you have found any bugs or just want to see some new features in TotoB12, feel free to open an issue. Every suggestion is very valuable for us, as they help us improve the browsing experience. Also, please don't hesitate to open a pull request. This is really important to us and for the further development of this project.
 
 By opening a pull request, you agree to the conditions of the [Contributor License Agreement](cla.md).
 
@@ -102,8 +99,8 @@ By opening a pull request, you agree to the conditions of the [Contributor Licen
 
 ## Running (Development)
 
-Before running Fifo, please ensure you have **latest** [`Node.js`](https://nodejs.org/en/) and [`YARN`] installed on your machine. 
-NPM is not **not** supported with the Fifo Project. You **need** to use the latest v2/v3 release of Yarn.
+Before running TotoB12, please ensure you have **latest** [`Node.js`](https://nodejs.org/en/) and [`YARN`] installed on your machine. 
+NPM is not **not** supported with the TotoB12 Project. You **need** to use the latest v2/v3 release of Yarn.
 
 ### Windows
 
@@ -117,8 +114,8 @@ Yarn:
 You need to ensure you have the latest version of YARN. (Yarn Berry)
 ```bash
 $ yarn install # Install node modules
-$ yarn build # Compile Fifo code and rebuild modules.
-$ yarn dev # Run Fifo in development mode
+$ yarn build # Compile TotoB12 code and rebuild modules.
+$ yarn dev # Run TotoB12 in development mode
 ```
 
 NPM: No longer supported
@@ -126,9 +123,9 @@ NPM: No longer supported
 ### More commands
 
 ```bash
-$ yarn compile-win32 # Package Fifo for Windows
-$ yarn compile-linux # Package Fifo for Linux
-$ yarn compile-darwin # Package Fifo for macOS
+$ yarn compile-win32 # Package TotoB12 for Windows
+$ yarn compile-linux # Package TotoB12 for Linux
+$ yarn compile-darwin # Package TotoB12 for macOS
 $ yarn lint # Runs linter
 $ yarn lint-fix # Runs linter and automatically applies fixes
 $ yarn copyright # Generates auto headers for copyright.
@@ -138,7 +135,7 @@ More commands can be found in [`package.json`](package.json).
 
 ## Running (Without Development Mode (Stable))
 
-Before running Fifo, please ensure you have **latest** [`Node.js`](https://nodejs.org/en/) and [`YARN`] installed on your machine. You can use NPM but it IS NOT recommended.
+Before running TotoB12, please ensure you have **latest** [`Node.js`](https://nodejs.org/en/) and [`YARN`] installed on your machine. You can use NPM but it IS NOT recommended.
 
 ### Windows
 
@@ -151,26 +148,19 @@ $ npm i -g windows-build-tools
 Yarn:
 ```bash
 $ yarn install # Install node modules
-$ yarn build # Compile Fifo code and rebuild modules.
-$ yarn start # Run Fifo in development mode
+$ yarn build # Compile TotoB12 code and rebuild modules.
+$ yarn start # Run TotoB12 in development mode
 ```
 
 NPM: Not recommended
 ```bash
 $ npm install --save --legacy-peer-deps # Install needed depedencies. If you can, please, use yarn install.
-$ npm run build # Compile Fifo code and rebuild modules.
-$ npm run start # Run Fifo in development mode
+$ npm run build # Compile TotoB12 code and rebuild modules.
+$ npm run start # Run TotoB12 in development mode
 ```
 
 # Documentation
 
 Guides and the API reference are located in [`docs`](docs) directory.
 
-# License
-This browser isn't mean to be rebranded/redistrubted, please follow the LICENSE.MD. 
-Never remove credits in headers.
-(sentialx@gmail.com) wrote original base code. (Wexond).
-By sending a Pull Request, you agree that your code may be relicensed or sublicensed.
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsnaildos%2FFifo-Browser.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsnaildos%2FFifo-Browser?ref=badge_large)
 </div>
