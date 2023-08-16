@@ -169,7 +169,7 @@ export const TabContainer = styled.div`
   display: flex;
   backface-visibility: hidden;
   transition: 0.1s background-color;
-  border-bottom: transparent !important;
+  // border-bottom: transparent !important;
   border: 2px solid;
   transition: background-color 1s, color 1s;
   transition-timing-function: ease-out;
