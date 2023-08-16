@@ -27,7 +27,7 @@ export const Performance = () => {
     <>
       <Header>Performance Settings</Header>
       <span>
-        Fifo offers an easy way to control startup options regarding performance and other perfromance options you may find useful. Typically, we do not recommend editing the settings unless you know what you are doing.
+        TotoB12 offers an easy way to control startup options regarding performance and other perfromance options you may find useful. Typically, we do not recommend editing the settings unless you know what you are doing.
       </span>
       <br></br>
       <HWAToggle />
