@@ -74,7 +74,7 @@ const themeset = (mode: string) => {
     document.getElementsByClassName('Lavender')[0].classList.remove('active');
     document.getElementsByClassName('Dark')[0].classList.remove('active');
     document.getElementsByClassName('Blue')[0].classList.add('active');
-    store.settings.theme = 'fifo-blue';
+    store.settings.theme = 'totob12-blue';
     store.settings.themeAuto = false;
     store.save();
   } else if (theme == 'Lavender') {
@@ -82,7 +82,7 @@ const themeset = (mode: string) => {
     document.getElementsByClassName('Blue')[0].classList.remove('active');
     document.getElementsByClassName('Dark')[0].classList.remove('active');
     document.getElementsByClassName('Lavender')[0].classList.add('active');
-    store.settings.theme = 'fifo-lavender';
+    store.settings.theme = 'totob12-lavender';
     store.settings.themeAuto = false;
     store.save();
   }
@@ -172,7 +172,7 @@ export default observer(() => {
       <WebUIStyle />
 
       <StyledSection className="banner1">
-        <Description>Welcome to Fifo!</Description>
+        <Description>Welcome to TotoB12!</Description>
         <Title>Lets get started!</Title>
         <Button theme={store.theme} onClick={nextPage}>
           Start!
@@ -321,7 +321,7 @@ export default observer(() => {
             <div
               style={{
                 border: '1px solid rgb(95, 99, 104)',
-                background: `url(https://cdn.snaildos.com/logo/fifo/ddg.png)`,
+                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/src/renderer/views/welcome/components/App/se/ddg.png?raw=true)`,
                 backgroundSize: 'cover',
                 borderRadius: '50%',
                 display: 'flex',
@@ -336,7 +336,7 @@ export default observer(() => {
             <div
               style={{
                 border: '1px solid rgb(95, 99, 104)',
-                background: `url(https://cdn.snaildos.com/logo/fifo/google.png)`,
+                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/src/renderer/views/welcome/components/App/se/google.png?raw=true)`,
                 backgroundSize: 'cover',
                 borderRadius: '50%',
                 display: 'flex',
@@ -351,7 +351,7 @@ export default observer(() => {
             <div
               style={{
                 border: '1px solid #0000FF',
-                background: `url(https://cdn.snaildos.com/logo/fifo/bing.png)`,
+                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/src/renderer/views/welcome/components/App/se/bing.png?raw=true)`,
                 backgroundSize: 'cover',
                 borderRadius: '50%',
                 display: 'flex',
@@ -366,7 +366,7 @@ export default observer(() => {
             <div
               style={{
                 border: '1px solid rgb(95, 99, 104)',
-                background: `url(https://cdn.snaildos.com/logo/fifo/ecosia.png)`,
+                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/src/renderer/views/welcome/components/App/se/ecosia.png?raw=true)`,
                 backgroundSize: 'cover',
                 borderRadius: '50%',
                 display: 'flex',
@@ -465,7 +465,7 @@ export default observer(() => {
 
       <StyledSection className="banner5">
         <Favicon></Favicon>
-        <Title>Fifo Setup</Title>
+        <Title>TotoB12 Setup</Title>
         <Description
           style={{
             fontSize: '1.5rem',
@@ -475,7 +475,7 @@ export default observer(() => {
             opacity: '1',
           }}
         >
-          For maximum privacy, set Fifo as your default browser!
+          For maximum privacy, set TotoB12 as your default browser!
         </Description>
         <div
           style={{
@@ -523,7 +523,7 @@ export default observer(() => {
       </StyledSection>
 
       <StyledSection className="banner6">
-        <Description>Fifo is the new privacy orientated browser!</Description>
+        <Description>TotoB12 is the new privacy orientated browser!</Description>
         <Title>Inbuilt adblocker and more, let's start.</Title>
         <Button theme={store.theme} onClick={commit}>
           Lets get started!
