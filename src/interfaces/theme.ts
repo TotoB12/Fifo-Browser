@@ -46,6 +46,7 @@ export interface ITheme {
   titlebarHeight?: number;
   tabHeight?: number;
   tabMarginTop?: number;
+  tabMarginBottom?: number;
   isCompact?: boolean;
 
   dark?: boolean;
