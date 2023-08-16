@@ -4,9 +4,9 @@ import styled, { css } from 'styled-components';
 import { Button } from '../ToolbarButton/style';
 import { ITheme } from '~/interfaces';
 import {
-  robotoRegular,
+  interRegular,
   centerVertical,
-  robotoMedium,
+  interMedium,
   centerIcon,
   coloredCursor,
 } from '~/renderer/mixins';
