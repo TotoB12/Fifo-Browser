@@ -13,9 +13,9 @@ if (process.env.NODE_ENV === 'development') {
 import { platform } from 'os';
 import { Application } from './application';
 
-export const isNightly = app.name === 'fifo-nightly';
+export const isNightly = app.name === 'totob12-nightly';
 
-app.name = isNightly ? 'Fifo Nightly' : 'Fifo';
+app.name = isNightly ? 'TotoB12 Nightly' : 'TotoB12';
 
 (process.env as any)['ELECTRON_DISABLE_SECURITY_WARNINGS'] = true;
 
