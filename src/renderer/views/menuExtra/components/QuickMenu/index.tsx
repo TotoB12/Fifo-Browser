@@ -77,7 +77,7 @@ const copiarUrl = async () => {
 
 const shareUrl = () => {
   shell.openExternal(
-    'mailto:?subject=Shared From Fifo Browser&body=' + store.data.url,
+    'mailto:?subject=Shared From TotoB12 Browser&body=' + store.data.url,
   );
 };
 
