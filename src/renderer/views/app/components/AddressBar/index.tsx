@@ -177,12 +177,12 @@ export const AddressBar = observer(() => {
         size={16}
         dense
         inhertTextColor
-        iconStyle={{ transform: 'scale(-1,1)'; pointer-events: none; }}
+        iconStyle={{ transform: 'scale(-1,1)' }}
       />
       <InputContainer>
         <Input
           ref={(r) => (store.inputRef = r)}
-          spellCheck={false}
+          spellCheck={true}
           onKeyDown={onKeyDown}
           onMouseDown={onMouseDown}
           onSelect={onSelect}
