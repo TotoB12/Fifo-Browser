@@ -10,7 +10,6 @@ import {
 import { ITheme } from '~/interfaces';
 
 export const Icon = styled.div`
-  pointer-events: none;
   width: 100%;
   height: 100%;
   will-change: background-image;
@@ -41,6 +40,7 @@ export const Icon = styled.div`
 `;
 
 export const Button = styled.div`
+  pointer-events: none;
   border-radius: 2px;
   position: relative;
   transition: 0.2s background-color;
