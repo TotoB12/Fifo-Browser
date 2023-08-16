@@ -180,7 +180,7 @@ export const TabContainer = styled.div`
     margin-bottom: ${theme.tabMarginBottom}px;
     border-radius: ${theme.isCompact && !hasTabGroup ? '4px' : 'auto'};
     height: ${theme.tabHeight}px;
-    // border-radius: 5px;
+    border-radius: 5px;
     box-shadow: ${selected ? '0px 0px 6px 0px rgba(0,0,0,0.12)' : 'none'};
   `};
 `;
