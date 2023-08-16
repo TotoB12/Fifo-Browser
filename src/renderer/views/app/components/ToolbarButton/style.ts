@@ -10,6 +10,7 @@ import {
 import { ITheme } from '~/interfaces';
 
 export const Icon = styled.div`
+  pointer-events: none;
   width: 100%;
   height: 100%;
   will-change: background-image;
