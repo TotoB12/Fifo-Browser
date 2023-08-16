@@ -8,7 +8,9 @@ export const StyledAddressBar = styled.div`
   height: 30px;
   flex: 1;
   border-radius: 10px;
-  margin: 0 7px;
+  // margin: 0 7px;
+  margin-left: 7px;
+  margin-right: 3px;
   display: flex;
   align-items: center;
   position: relative;
