@@ -7,7 +7,7 @@ import { URL } from 'url';
 
 protocol.registerSchemesAsPrivileged([
   {
-    scheme: 'fifo',
+    scheme: 'totob12',
     privileges: {
       bypassCSP: true,
       secure: true,
