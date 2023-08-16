@@ -179,8 +179,7 @@ export const TabContainer = styled.div`
     margin-top: ${theme.tabMarginTop}px;
     border-radius: ${theme.isCompact && !hasTabGroup ? '4px' : 'auto'};
     height: ${theme.tabHeight}px;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     box-shadow: ${selected ? '0px 0px 6px 0px rgba(0,0,0,0.12)' : 'none'};
   `};
 `;
