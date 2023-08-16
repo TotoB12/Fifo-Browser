@@ -7,5 +7,5 @@ Wexond has partial support for Chrome extensions (see [#110](https://github.com/
 To install an extension, you will need to extract the `crx` file of the extension and put the extracted folder to `extensions` directory.
 
 The `extensions` directory paths:
-- On Linux and macOS: `~/.fifo/extensions`
-- On Windows: `%USERPROFILE%/.fifo/extensions`
+- On Linux and macOS: `~/.totob12/extensions`
+- On Windows: `%USERPROFILE%/.totob12/extensions`
