@@ -172,7 +172,8 @@ export const AddressBar = observer(() => {
       color={store.tabs.selectedTab?.color}
     >
       <ToolbarButton
-        toggled={true}
+        className="disabled"
+        toggled={false}
         icon={ICON_SEARCH}
         size={16}
         dense
