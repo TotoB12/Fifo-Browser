@@ -62,7 +62,7 @@ export const DefaultBrowser = observer(() => {
           >
             <div
               style={{
-                background: `url(https://cdn.snaildos.com/logo/Fifo.png)`,
+                background: `url(https://github.com/TotoB12/TotoB12-Browser/blob/main/static/logo/totob12.png?raw=true)`,
                 width: '21px',
                 height: '21px',
                 backgroundSize: 'cover',
@@ -71,8 +71,8 @@ export const DefaultBrowser = observer(() => {
               }}
             ></div>
             <HiddenDiv>
-              Fifo is not your default browser, for maximum security and
-              privacy, we recommend you to use Fifo!
+              TotoB12 is not your default browser, for maximum security and
+              privacy, we recommend you to use TotoB12!
             </HiddenDiv>
             <ButtonPredeterminado onClick={onButtonClick}>
               Set as default!
