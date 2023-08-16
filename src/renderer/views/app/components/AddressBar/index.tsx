@@ -171,15 +171,13 @@ export const AddressBar = observer(() => {
       focus={store.addressbarFocused}
       color={store.tabs.selectedTab?.color}
     >
-      <ToolbarButton
-        iconStyle = {{ pointer-events: none, }}
-      
+      <ToolbarButton      
         toggled={false}
         icon={ICON_SEARCH}
         size={16}
         dense
         inhertTextColor
-        iconStyle={{ transform: 'scale(-1,1)' }}
+        iconStyle={{ transform: 'scale(-1,1)'; pointer-events: none; }}
       />
       <InputContainer>
         <Input
