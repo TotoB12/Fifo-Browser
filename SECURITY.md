@@ -9,4 +9,4 @@
 
 ## Reporting a Vulnerability
 
-Security vunrabilities are taken very seriously, please, if you find one, report them on https://snaildos.com/contact.html, we do recommend using the live chat.
+Security vunrabilities are taken very seriously, please, if you find one, report them at support@totob12.com, we do recommend using the live chat.
