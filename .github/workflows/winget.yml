@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: vedantmgoyal2009/winget-releaser@v2
         with:
-          identifier: SnailDOS.Fifo
+          identifier: TotoB12.TotoB12
           max-versions-to-keep: 5
           token: ${{ secrets.WINGET_TOKEN }}
