@@ -3,6 +3,6 @@ Type=Application
 Name=TotoB12 Browser
 MimeType=application/totob12;
 Icon=/usr/share/pixmaps/totob12.png
-Comment=Open Source elegant browser powered by the SnailDOS team delivering expectational software quality with privacy at key.
+Comment=Open Source elegant browser powered by the TotoB12 team delivering expectational software quality with privacy at key.
 Exec=/opt/totob12/totob12.AppImage
 Categories=WebBrowser;
