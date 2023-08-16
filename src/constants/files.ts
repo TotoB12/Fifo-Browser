@@ -4,9 +4,9 @@ import { DEFAULT_SETTINGS } from './settings';
 
 export const DIRECTORIES = ['adblock', 'extensions', 'storage'];
 
-export const WEBUI_PROTOCOL = 'fifo';
+export const WEBUI_PROTOCOL = 'totob12';
 
-export const ERROR_PROTOCOL = 'fifo-error';
+export const ERROR_PROTOCOL = 'totob12-error';
 
 export const NETWORK_ERROR_HOST = 'network-error';
 
