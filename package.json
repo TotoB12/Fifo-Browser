@@ -1,8 +1,8 @@
 {
-  "name": "Fifo",
+  "name": "TotoB12",
   "version": "1.3.3",
   "sideEffects": false,
-  "description": "Fifo is a nonprofit, fast free and secure Web Browser. It is based on Wexond, and includes news and tons of features out of the box. Fifo is resource effecient, and is updated often. Powered by SnailDOS!",
+  "description": "TotoB12 is a nonprofit, fast free and secure Web Browser. It is based on Wexond, and includes news and tons of features out of the box. TotoB12 is resource effecient, and is updated often. Powered by TotoB12!",
   "keywords": [
     "web-browser",
     "material",
@@ -11,15 +11,15 @@
     "mobx",
     "styled-components"
   ],
-  "homepage": "https://github.com/snaildos/Fifo-Browser",
+  "homepage": "https://github.com/totob12/TotoB12-Browser",
   "main": "build/main.bundle.js",
-  "author": "SnailDOS Team <snaildos@snaildos.com>",
+  "author": "TotoB12 Team <admin@totob12.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snaildos/Fifo-Browser.git"
+    "url": "git+https://github.com/totob12/TotoB12-Browser.git"
   },
   "bugs": {
-    "url": "https://github.com/snaildos/Fifo-Browser/issues"
+    "url": "https://github.com/totob12/TotoB12-Browser/issues"
   },
   "scripts": {
     "dev-renderer": "cross-env DEV=1 webpack serve --config webpack.config.renderer.js",
@@ -40,7 +40,7 @@
     "lint": "concurrently \"eslint \"src/**/*.ts*\" \"src/**/*.tsx*\"\" \"prettier --check \"src/**/*.ts*\" \"src/**/*.tsx*\"\"",
     "lint-fix": "concurrently \"eslint \"src/**/*.ts*\" \"src/**/*.tsx*\" --fix\" \"prettier --write \"src/**/*.ts*\" \"src/**/*.tsx*\"\"",
     "rebuild": "electron-builder install-app-deps",
-    "copyright": "copyright-header --templateId minimal --forceModificationYear 2022 --fix --copyrightHolder SnailDOS --include src"
+    "copyright": "copyright-header --templateId minimal --forceModificationYear 2022 --fix --copyrightHolder TotoB12 --include src"
   },
   "devDependencies": {
     "@babel/core": "7.18.13",
