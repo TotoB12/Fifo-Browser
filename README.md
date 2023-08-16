@@ -4,7 +4,7 @@
 <div align="center">  
   <h1>TotoB12 Browser</h1>
 
-  [![Build CI](https://github.com/TotoB12/TotoB12-Browser/actions/workflows/build.yml/badge.svg)](https://github.com/snaildos/TotoB12-Browser/actions/workflows/build.yml) 
+  [![Build CI](https://github.com/TotoB12/TotoB12-Browser/actions/workflows/build.yml/badge.svg)](https://github.com/totob12/TotoB12-Browser/actions/workflows/build.yml) 
   
 [![Downloads](https://img.shields.io/github/downloads/snaildos/TotoB12-Browser/total.svg?style=flat-square)](https://totob12.com)
 ![AUR version](https://img.shields.io/aur/version/totob12-bin)
