@@ -172,7 +172,7 @@ export const AddressBar = observer(() => {
       color={store.tabs.selectedTab?.color}
     >
       <ToolbarButton
-        pointer-events={none}
+        iconStyle = {{ pointer-events: none }}
       
         toggled={false}
         icon={ICON_SEARCH}
