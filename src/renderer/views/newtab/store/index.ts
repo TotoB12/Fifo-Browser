@@ -1,4 +1,4 @@
-/* Copyright (c) 2021-2022 SnailDOS */
+/* Copyright (c) 2021-2022 TotoB12 */
 
 import { observable, computed, makeObservable } from 'mobx';
 import { ISettings, ITheme, IVisitedItem } from '~/interfaces';
@@ -261,7 +261,7 @@ export class Store {
     const news = this.isnews;
     if (news == false) {
       const { data } = await networkMainChannel.getInvoker().request(`
-      https://snaildos.github.io/SnailNews/data.json
+      https://totob12.github.io/TotoB12News/data.json
     `); // ?lang=
       const json = JSON.parse(data);
 
