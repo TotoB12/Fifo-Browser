@@ -182,7 +182,7 @@ export const AddressBar = observer(() => {
       <InputContainer>
         <Input
           ref={(r) => (store.inputRef = r)}
-          spellCheck={true}
+          spellCheck={false}
           onKeyDown={onKeyDown}
           onMouseDown={onMouseDown}
           onSelect={onSelect}
