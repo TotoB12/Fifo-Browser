@@ -40,7 +40,6 @@ export const Icon = styled.div`
 `;
 
 export const Button = styled.div`
-  pointer-events: none;
   border-radius: 2px;
   position: relative;
   transition: 0.2s background-color;
