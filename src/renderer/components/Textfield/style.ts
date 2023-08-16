@@ -3,9 +3,9 @@
 import styled, { css } from 'styled-components';
 
 import {
-  robotoRegular,
+  interRegular,
   centerVertical,
-  robotoMedium,
+  interMedium,
   centerIcon,
   coloredCursor,
 } from '~/renderer/mixins';
@@ -44,7 +44,7 @@ export const Input = styled.input`
   outline: none;
   background-color: transparent;
   user-select: auto;
-  ${robotoRegular()};
+  ${interRegular()};
 
   ${({ color, hasLabel, hasIcon, dark }: InputProps) => css`
     padding-top: ${hasLabel ? 12 : 0}px;
@@ -90,7 +90,7 @@ export const Label = styled.div`
       : dark
       ? `rgba(255, 255, 255, ${transparency.text.medium})`
       : `rgba(0, 0, 0, ${transparency.text.medium})`};
-    ${activated ? robotoMedium() : robotoRegular()};
+    ${activated ? interMedium() : interRegular()};
   `}
 `;
 
