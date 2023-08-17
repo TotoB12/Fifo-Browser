@@ -25,7 +25,7 @@ import settingstore from '../../../settings/store/index';
 
 let page = 1;
 let theme = 'Dark';
-let engine = 'duckduckgo';
+let engine = 'bing';
 settingstore.settings.newtab.weather = false;
 settingstore.settings.newtab.news = false;
 
