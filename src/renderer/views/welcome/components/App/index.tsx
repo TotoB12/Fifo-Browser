@@ -163,7 +163,7 @@ export default observer(() => {
     store.settings.theme = 'wexond-dark';
     document.getElementsByClassName('banner1')[0].classList.add('active');
     // console.log(await defaultBrowser());
-    document.getElementsByClassName('duckduckgo')[0].classList.add('active');
+    document.getElementsByClassName('bing')[0].classList.add('active');
     engineset('duckduckgo');
   };
 
@@ -315,8 +315,7 @@ export default observer(() => {
           }}
         >
           <Option
-            onClick={() => engineset('duckduckgo')}
-            className="duckduckgo"
+            onClick={() => engineset('duckduckgo')} className="duckduckgo"
           >
             <div
               style={{
