@@ -46,9 +46,12 @@ jobs:
 
       - name: Get commit message
         run: echo "::set-output name=message::$(git log --no-merges -1 --oneline)"
+  
+      - name: Does installing work?
+        run: yarn
 
       - name: Does building work?
-        run: yarn run build
+        run: yarn build
 
       - name: Done
         run: echo Done
