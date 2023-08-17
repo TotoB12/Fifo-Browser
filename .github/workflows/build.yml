@@ -45,7 +45,7 @@ jobs:
           ADBLOCK: true
 
       - name: Get commit message
-        run: echo "::set-output name=message::$(git log --no-merges -1 --oneline)"
+        run: echo "{name}={value}" >> $GITHUB_OUTPUT
   
       - name: Does installing work?
         run: yarn
