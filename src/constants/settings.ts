@@ -1,4 +1,4 @@
-/* Copyright (c) 2021-2022 SnailDOS */
+/* Copyright (c) 2007-2023 TotoB12 */
 
 import { ISettings } from '~/interfaces';
 import { app } from 'electron';
@@ -40,12 +40,12 @@ export const DEFAULT_SETTINGS: ISettings = {
   shield: true,
   multrin: true,
   animations: true,
-  bookmarksBar: true,
+  bookmarksBar: false,
   suggestions: true,
   themeAuto: true,
   httpsEnforce: false,
   searchEngines: DEFAULT_SEARCH_ENGINES,
-  searchEngine: 0,
+  searchEngine: 2,
   startupBehavior: {
     type: 'empty',
   },
