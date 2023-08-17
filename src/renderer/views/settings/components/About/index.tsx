@@ -15,20 +15,11 @@ const Location = observer(() => {
     <Row>
       <Title>
         TotoB12 is a privacy orientated browser with tons of features such as a
-        built in Ad Blocker. TotoB12 is made with love by the SnailDOS team. Big
-        thanks to all our contributers...
+        built in Ad Blocker. The TotoB12 Browser is made with love by the TotoB12 team.
         <p></p>
-        <Title>SnailDOS - Development and Code</Title>
+        <Title><a href="https://github.com/totob12/TotoB12-Browser">TotoB12 Browser</a> - Github Repository</Title>
         <p></p>
-        <Title>Wexond - Original Fork</Title>
-        <p></p>
-        <Title>Preknowledge - Contributer</Title>
-        <p></p>
-        <Title>JOshua - Graphic Designer</Title>
-        <p></p>
-        <Title> Mauro Baladés - Contributer</Title>
-        <p></p>
-        <Title>HzzaAwesome - Graphic Designer</Title>
+        <Title><a href="https://totob12.com">link text</a> - Website</Title>
       </Title>
     </Row>
   );
