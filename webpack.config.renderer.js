@@ -62,6 +62,7 @@ applyEntries(appConfig, [
   'history',
   'newtab',
   'bookmarks',
+  'game',
 ]);
 
 if (process.env.ENABLE_EXTENSIONS) {
