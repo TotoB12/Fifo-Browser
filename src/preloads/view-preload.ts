@@ -152,6 +152,8 @@ if (
       contextBridge.exposeInMainWorld('getTopSites', async (count: number) => {
         return await ipcRenderer.invoke(`topsites-get`, count);
       });
+    } else if (hostname.startsWith('game')) {
+      return;
     }
   })();
 } else {
