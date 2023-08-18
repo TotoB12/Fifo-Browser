@@ -164,7 +164,7 @@ export default observer(() => {
     document.getElementsByClassName('banner1')[0].classList.add('active');
     // console.log(await defaultBrowser());
     document.getElementsByClassName('bing')[0].classList.add('active');
-    engineset('duckduckgo');
+    engineset('bing');
   };
 
   return (
