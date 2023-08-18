@@ -1,4 +1,4 @@
-/* Copyright (c) 2021-2022 SnailDOS */
+/* Copyright (c) 2021-2022 Totob12 */
 
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
